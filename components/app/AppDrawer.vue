@@ -65,6 +65,7 @@ const user = useUserState();
 if (!user.value?.address) return false;
 
 const admins = [
+  "bitsong12ssglnfg24p4psm66hkurq4mnkc6fey9pwmzmk",
   "bitsong1h882ezq7dyewld6gfv2e06qymvjxnu842586h2",
   "bitsong1q49ntyz2wjurrm56ymm5hjnz60ya3x783c5m6e",
   "bitsong1f5ze3svwg8fgjuwwnr743j6fr9vtyr58nex7tu",
