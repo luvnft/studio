@@ -1,4 +1,5 @@
 import useCurveSimulator from "~/server/utils/curve_simulator"
+import prisma from '~/server/utils/db'
 
 interface Preview {
   id: string

@@ -18,6 +18,82 @@ interface Track {
 }
 
 const tracks: Track[] = [{
+  "id": "chill-night-in-rio",
+  "title": "Chill Night in Rio",
+  "artists": [
+    "Florin Dumbraveanu"
+  ],
+  "description": "I'm excited to share my new track, \"Chill Night in Rio\"! This one’s got a smooth, laid-back vibe perfect for winding down or kicking back. It’s a chill deep house track with a relaxed groove that’ll make you feel like you're spending a breezy evening in Rio. Very nice, very cool, just how you like it!\n\nIf you're into calming beats with a deep, flowing rhythm, you'll love \"Chill Nights in Rio.\"\n\nPlus, by owning the \"Chill Nights in Rio\" Music NFT, you'll unlock:\n\nExclusive Ownership: Hold a unique digital asset of this track.\nSpecial Content: Get behind-the-scenes looks, remixes, and more.\nFan Perks: Join a community of deep house lovers and get closer to me and my music.\nCollaborations: If you're an artist and want to collaborate with me and my Label, I'm definitely open to such opportunities.",
+  "creator": "bitsong1mvqdh3mkc9vaqr5394tkkef08jcnndcernl54j",
+  "sellerFeeBps": 400,
+  "referralFeeBps": 50,
+  "previewUrl": "https://media-api.bitsong.studio/ipfs/QmaeaQnZa7gvbFKPutD5nkXypyTAV5V7fsjFVayfKYLssE",
+  "artworkUrl": "https://media-api.bitsong.studio/ipfs/QmPWrMpiYfpYHkctztHyARuXFJQqfBvbJLXp8FnJFg4oKU",
+  "startTime": 1732125600,
+  "genre": "House",
+  "explicit": "Clean",
+  "license": "All Rights Reserved",
+  "initialPrice": 0.017383,
+  "nftAddress": "bitsong1nmtk7hm3gz70f3uaxeulg6q2jpr8e56nmrnghqqgwcuns8qxh4tsurr6kc",
+  "marketplaceAddress": "bitsong173vguejmk69ez9040ys4etzfy205my4yw0juyqv0u6n9jemdhuxszhz99e"
+}, {
+  "id": "diesel-power",
+  "title": "Diesel Power",
+  "artists": [
+    "Florin Dumbraveanu"
+  ],
+  "description": "I'm excited to drop my latest track, \"Diesel Power\"! This house track packs a punch with driving beats and a deep, rhythmic flow. It's all about energy, the kind of vibe that keeps you going whether you're on the dance floor or just enjoying some solid house music at home.\n\nIf you're into powerful basslines and hypnotic grooves, \"Diesel Power\" is definitely for you.\n\nBy owning the \"Diesel Power\" Music NFT, you'll also unlock some awesome benefits:\n\nExclusive Ownership: Own a unique digital piece of my music.\nAccess to Special Content: Enjoy behind-the-scenes insights, unreleased mixes, and more.\nFan Perks: Join a tight-knit community of fans and get closer to the music.",
+  "creator": "bitsong1mvqdh3mkc9vaqr5394tkkef08jcnndcernl54j",
+  "sellerFeeBps": 400,
+  "referralFeeBps": 50,
+  "previewUrl": "https://media-api.bitsong.studio/ipfs/QmPEsbi8UPDGwucuNTX9M7EcgVZveZv2UyQaAqfA6osHyP",
+  "artworkUrl": "https://media-api.bitsong.studio/ipfs/QmSD88dPS8aKgCNJwwMmYEBWmBC8eUXz3ABxEisGfLcp7h",
+  "startTime": 1731520740,
+  "genre": "House",
+  "explicit": "Clean",
+  "license": "All Rights Reserved",
+  "initialPrice": 0.011588,
+  "nftAddress": "bitsong1se9xfjqzmx0vpmcxn0vfdhhczh5kk4lmqm4nx6eeq3kul8a2mmns38pzat",
+  "marketplaceAddress": "bitsong1wgzz9zzds0qv8pw8pxvtn2m6mtzus65x90w0nwj6u2wxas5xgugsj33h5c"
+}, {
+  "id": "lets-go",
+  "title": "Let's Go",
+  "artists": [
+    "Florin Dumbraveanu"
+  ],
+  "description": "I'm excited to announce the launch of my latest track, \"Let's Go\"!\nIf you're a fan of feel-good beats and that classic house sound, you're going to love this one.\n\nI poured a lot of energy into this track to make sure it brings out the best vibes, whether you're on the dance floor or just enjoying it at home.\n\nGrab the \"Let's Go\" Music NFT and get access to exclusive perks:\n\nUnique Ownership: Hold a one-of-a-kind digital collectible of my music.\nExclusive Content: Enjoy behind-the-scenes looks, alternate versions, and more.\nCommunity: Join a select group of fans with special interactions and experiences and if you're an artist who wants to launch a new tune, I'll feature and help you in the production.",
+  "creator": "bitsong1mvqdh3mkc9vaqr5394tkkef08jcnndcernl54j",
+  "sellerFeeBps": 450,
+  "referralFeeBps": 49.995,
+  "previewUrl": "https://media-api.bitsong.studio/ipfs/Qmboir426zr9qjZXPJeNqKQdqinWLiJeU4cdXguoAN8fr3",
+  "artworkUrl": "https://media-api.bitsong.studio/ipfs/QmSstaRccYnX1Q9bsEQPgjTK9BfrJJJGPYevSYFzUX251u",
+  "startTime": 1730916000,
+  "genre": "House",
+  "explicit": "Clean",
+  "license": "All Rights Reserved",
+  "initialPrice": 0.006986,
+  "nftAddress": "bitsong1xwskfl7cwggg5w0ddg2v4v475awxf8weq9ce9xlvnk6hmd6tsn0qwggxmj",
+  "marketplaceAddress": "bitsong1nu3ytkzrjpzm7954v99ra46cw0nfff47d4qwh90rez7k07gln2ps6ckurz"
+}, {
+  "id": "give-me-drums",
+  "title": "Give Me Drums",
+  "artists": [
+    "Florin Dumbraveanu"
+  ],
+  "description": "I'm excited to introduce my latest track, \"Give Me Drums,\" a house music piece with deep house influences. This one’s all about rhythm, driving beats, and a steady groove that’ll keep you locked in. The deep house elements bring in those subtle, warm vibes, while the house beats ensure it’s got that high energy for the dance floor.\n\nWhether you're relaxing or dancing, I can't wait for you to hear it!\n\nOwning the \"Give Me Drums\" Music NFT comes with:\n\nUnique ownership of a digital music asset.\nDirect support for me as an artist, helping me continue to create music independently.\nAccess to exclusive content and special perks designed for collectors.\n\nLooking forward to sharing the rhythm with you",
+  "creator": "bitsong1mvqdh3mkc9vaqr5394tkkef08jcnndcernl54j",
+  "sellerFeeBps": 500,
+  "referralFeeBps": 50,
+  "previewUrl": "https://media-api.bitsong.studio/ipfs/QmRgBtKNV5vxj2R4qub7deSdVGJbxe14DRmW84v5KLsA6W",
+  "artworkUrl": "https://media-api.bitsong.studio/ipfs/QmXfkeChLxt5P89Tof2wznjofDvgeb6TGJpMn3nPX7Nx7h",
+  "startTime": 1730311200,
+  "genre": "House",
+  "explicit": "Clean",
+  "license": "All Rights Reserved",
+  "initialPrice": 0.00702,
+  "nftAddress": "bitsong1rgzmd4ts5cl7l00aks94mkrgh66s0xlnr7hc600962z39k7jt7mq8m2qwd",
+  "marketplaceAddress": "bitsong1t2rj8xaykjfujjd6g28wqe8x2hqyf8jnz5ufel24c7r6kre0xl9skagsl8"
+}, {
   "id": "huyu",
   "title": "Huyu",
   "artists": [

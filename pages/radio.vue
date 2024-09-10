@@ -15,7 +15,7 @@
             <v-card rounded="lg" width="230" color="black">
               <v-img :transition="false" height="230" width="230"
                 :src="img(radio.cover, { width: 230, height: 230, fit: 'cover', format: 'webp' })"
-                gradient="to bottom, rgba(0,0,0,.07), rgba(0,0,0,.2)"> </v-img>
+                gradient="to bottom, rgba(0,0,0,.07), rgba(0,0,0,.2)" />
               <v-card-subtitle class="mt-2 text-caption text-white">
                 {{ radio.artist }}
               </v-card-subtitle>
