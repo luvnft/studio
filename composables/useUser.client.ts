@@ -55,7 +55,7 @@ ${new Date().toUTCString()}`;
       })
       user.value = null
     }
-    window.location.reload()
+    //window.location.reload()
   }
 
   async function login() {
@@ -107,7 +107,7 @@ ${new Date().toUTCString()}`;
     status,
     async () => {
       if (status.value === ConnectionStates.DISCONNECTED) {
-        if (user.value) {
+        if (user.value?.address !== undefined) {
           await logout()
         }
       }
@@ -132,14 +132,9 @@ ${new Date().toUTCString()}`;
 
               user.value = {
                 ...loginData?.user,
+                sid: loginData?.sid
               }
 
-              if (loginData?.sid) {
-                user.value = {
-                  ...user.value,
-                  sid: loginData?.sid,
-                }
-              }
               break
             } catch (e) {
               remainingAttempts--

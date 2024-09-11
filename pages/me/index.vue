@@ -4,13 +4,12 @@
       <AppProfileHeader v-if="user" :address="user.address" :avatar="user.avatar" :cover="user.cover"
         :username="user.username" :email="user.email" />
 
-      <AppNftTokenGrid class="mt-4" :items="data" @refresh="onRefresh" />
+      <AppProfileNfts v-if="user" :nfts="nfts" />
     </template>
   </app-page>
 </template>
 
 <script setup lang="ts">
-import type { NftTokenGridItem } from '~/components/app/Nft/AppNftTokenGridItem.vue';
 import defaultImage from "~/assets/images/og-default-1200.png";
 
 definePageMeta({
@@ -26,23 +25,5 @@ useSeoMeta({
   ogImage: user?.value?.avatar ? useIpfsLink(user?.value?.avatar) : defaultImage,
 });
 
-const { data, error, refresh } = useFetch(`/api/u/${user.value?.address}/nfts`, {
-  transform: (data) => data.map((item) => {
-    return {
-      nft: item.nft_id,
-      nftName: item.nft_name,
-      tokenId: item.token_id,
-      tokenName: `#${item.token_id}`,
-      image: item.nft_image,
-    } as NftTokenGridItem
-  })
-})
-
-async function onRefresh() {
-  await refresh()
-}
-
-if (error.value) {
-  navigateTo("/")
-}
+const { nfts } = await useProfile(user.value!.address)
 </script>
