@@ -5,6 +5,10 @@ interface NavItem {
   onlyLoggedIn?: boolean;
   onlyAdmin?: boolean;
   exact?: boolean;
+  badge?: {
+    content: string;
+    color?: string;
+  };
 }
 
 export const useNavigationDrawer = () => {
@@ -70,6 +74,18 @@ export const useNavigationDrawer = () => {
         onlyLoggedIn: true,
         onlyAdmin: true,
         exact: true,
+      },
+      {
+        title: "Radio",
+        icon: "mdi-radio",
+        to: "/radio",
+        onlyLoggedIn: false,
+        onlyAdmin: false,
+        exact: true,
+        badge: {
+          content: "Preview",
+          color: "primary",
+        },
       }
     ];
   });
