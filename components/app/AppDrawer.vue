@@ -27,7 +27,6 @@
       </div>
     </v-list>
 
-
     <template #append>
       <ClientOnly>
         <div class="d-flex flex-columns justify-center align-center">
@@ -35,16 +34,6 @@
 v-for="social in socials" :key="social.href" :href="social.href" target="_blank"
             class="text-surface-variant drawer-icon">
             <font-awesome-icon :icon="social.icon"/>
-          </a>
-        </div>
-        <div class="d-flex flex-columns justify-center align-center mb-5">
-          <a
-class="v-btn v-theme--mainnetTheme text-surface-variant v-btn--density-default rounded-xl v-btn--size-default v-btn--variant-tonal"
-            href="https://github.com/bitsongofficial/studio" target="_blank">
-            <span class="v-btn__overlay"/>
-            <span class="v-btn__underlay"/>
-            <v-icon>mdi-github</v-icon>
-            <span class="mx-2 text-caption">{{ repo?.stargazers_count }}</span>
           </a>
         </div>
       </ClientOnly>
